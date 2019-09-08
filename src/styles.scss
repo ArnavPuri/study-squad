@@ -1,1 +1,58 @@
-/* You can add global styles to this file, and also import other style files */
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.primary {
+    color: #6348B3;
+}
+
+.primary-dark {
+    color: #1F0B5B;
+}
+
+.primary-heading {
+    color: #6348B3;
+    font-size: 80px;
+    font-family: Manjari;
+    margin-bottom: 0;
+}
+
+.no-style-list {
+    list-style: none;
+    padding: 0;
+    font-size: 24px;
+}
+
+.input-box {
+    padding: 12px;
+    color: #6348B3;
+    font-size: 22px;
+    display: block;
+    margin: 0;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    border: none;
+    border: 1px solid;
+}
+
+.btn {
+    background: white;
+    border: none;
+    font-size: 16px;
+    font-family: Manjari;
+    border: 1px solid #6348B3;
+    padding: 12px;
+    border-radius: 8px;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.16);
+}
+
+.btn-primary {
+    background: #6348B3;
+    color: white;
+}
