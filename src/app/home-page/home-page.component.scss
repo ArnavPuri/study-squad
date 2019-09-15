@@ -16,6 +16,7 @@
 
 section.header {
     padding: 120px;
+    padding-bottom: 20px;
 }
 
 .invite {
@@ -27,4 +28,29 @@ section.header {
 .email-box {
     font-family: Manjari;
     font-size: 22px;
+}
+
+.features {
+    font-family: Manjari;
+}
+
+.feature-details {
+    max-width: 620px;
+}
+
+.feature-heading {
+    font-size: 40px;
+}
+
+.feature-description {
+    font-size: 20px;
+}
+
+.feature-image {
+    width: 250px;
+}
+
+.footer {
+    background-color: #F6F6F9;
+    color: #6348B3;
 }

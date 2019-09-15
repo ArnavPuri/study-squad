@@ -20,9 +20,48 @@
         <p class="invite">
             Enter your email and we will instantly send you an invitation
         </p>
-        <input class="input-box" placeholder="Enter your email">
-        <button class="btn btn-primary">
-            Count me in
-        </button>
+        <div fxLayout="row">
+            <mat-form-field appearance="outline">
+                <mat-label>Email</mat-label>
+                <input matInput placeholder="nerd@ib.org">
+            </mat-form-field>
+        </div>
+        <button class="primary" color="primary" mat-raised-button>Count me in</button>
     </div>
+</section>
+
+<section class="features" fxLayout="column" fxLayoutGap="12px" style="padding: 0 32px">
+    <div fxLayout="row" fxLayoutAlign="center center" fxLayoutGap="12px" fxFlex="1 1 100%">
+        <img src="../../assets/files.png" alt="All Past Papers" class="feature-image">
+        <div fxLayout="column" fxLayoutAlign="center start" fxLayoutGap="18px" class="feature-details">
+            <h2 class="primary feature-heading">Access to all past papers</h2>
+            <p class="feature-description">
+                Get access to sorted past year papers and their mark schemes
+            </p>
+        </div>
+    </div>
+
+    <div fxLayout="row" fxLayoutAlign="center center" fxLayoutGap="12px" fxFlex="1 1 100%">
+        <div fxLayout="column" fxLayoutAlign="center start" fxLayoutGap="18px" class="feature-details">
+            <h2 class="primary feature-heading">Smart progress tracker</h2>
+            <p class="feature-description">
+                Keep track of completed topics and past papers. Earn rewards and recognition for continuous improvement </p>
+        </div>
+        <img src="../../assets/progress.png" alt="All Past Papers" class="feature-image">
+    </div>
+    <div fxLayout="row" fxLayoutAlign="center center" fxLayoutGap="12px" fxFlex="1 1 100%">
+        <img src="../../assets/mindmap.png" alt="All Past Papers" class="feature-image">
+        <div fxLayout="column" fxLayoutAlign="center start" fxLayoutGap="18px" class="feature-details">
+            <h2 class="primary feature-heading">Mind maps, flashcards & notes</h2>
+            <p class="feature-description">
+                Created by the best minds for last minute revision and better understanding </p>
+        </div>
+
+    </div>
+</section>
+
+<section class="footer" fxLayout="row" fxLayoutAlign="center center">
+    <p class="footer-text">
+        Copyright © 2019 | Brownfingers | All Rights Reserved
+    </p>
 </section>
