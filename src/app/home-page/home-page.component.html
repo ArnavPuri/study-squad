@@ -1,10 +1,11 @@
 <section class="header" fxLayout="column" fxLayoutAlign="left">
+    <!-- <div class="cloud-left" style="background-image:url('../../assets/cloud-left.png')"></div> -->
     <img src="../../assets/cloud-left.png" alt="Floating Cloud" class="cloud cloud-left">
     <img src="../../assets/cloud-right.png" alt="Floating Cloud" class="cloud cloud-right">
-    <h1 class="primary primary-heading">Join the #1 squad</h1>
+    <h1 class="primary primary-heading">Join the #1 IGCSE Squad</h1>
     <ul class="no-style-list primary-dark">
         <li>
-            Learn from the best 👨‍🏫
+            Track your progress 📈
         </li>
         <li>
             Ask doubts 📣
@@ -20,17 +21,18 @@
         <p class="invite">
             Enter your email and we will instantly send you an invitation
         </p>
+        <form name="email-sub" data-netlify="true" method="post"></form>
         <div fxLayout="row">
             <mat-form-field appearance="outline">
                 <mat-label>Email</mat-label>
-                <input matInput placeholder="nerd@ib.org">
+                <input matInput placeholder="nerd@ib.org" name="email">
             </mat-form-field>
         </div>
-        <button class="primary" color="primary" mat-raised-button>Count me in</button>
+        <button class="primary" color="primary" mat-raised-button type="submit">Count me in</button>
     </div>
 </section>
 
-<section class="features" fxLayout="column" fxLayoutGap="12px" style="padding: 0 32px">
+<section class="features" fxLayout="column" fxLayoutGap="24px" style="padding: 0 32px">
     <div fxLayout="row" fxLayoutAlign="center center" fxLayoutGap="12px" fxFlex="1 1 100%">
         <img src="../../assets/files.png" alt="All Past Papers" class="feature-image">
         <div fxLayout="column" fxLayoutAlign="center start" fxLayoutGap="18px" class="feature-details">
