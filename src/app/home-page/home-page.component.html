@@ -21,14 +21,16 @@
         <p class="invite">
             Enter your email and we will instantly send you an invitation
         </p>
-        <form name="email-sub" data-netlify="true" method="post"></form>
-        <div fxLayout="row">
-            <mat-form-field appearance="outline">
-                <mat-label>Email</mat-label>
-                <input matInput placeholder="nerd@ib.org" name="email">
-            </mat-form-field>
-        </div>
-        <button class="primary" color="primary" mat-raised-button type="submit">Count me in</button>
+        <form name="email-sub" method="post" netlify>
+            <div fxLayout="row">
+                <mat-form-field appearance="outline">
+                    <mat-label>Email</mat-label>
+                    <input matInput placeholder="nerd@ib.org" name="email">
+                </mat-form-field>
+            </div>
+
+            <button class="primary" color="primary" mat-raised-button type="submit">Count me in</button>
+        </form>
     </div>
 </section>
 
